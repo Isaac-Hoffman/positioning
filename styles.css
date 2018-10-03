@@ -1,0 +1,30 @@
+body {
+  background-color: #57dd9e;
+  padding:35px;
+}
+
+div.container {
+  width: 85%;
+  margin: auto;
+  border-color: #029372;
+  border-width: 5px;
+  border-style: solid;
+  background-color: white;
+  padding:20px 20px 0 20px
+}
+
+footer {
+  background-color: #e7325b;
+  color: #fdc6d6;
+  padding: 7px 20px;
+  margin: 10px -20px 0 -20px
+}
+
+.fab {color:rgba(0,0,255,.5); font-size: 2em;padding-right:5px;}
+
+.show {display:block;}
+.hide {display:none;}
+h1{position: relative; top: 20%; left: 40%;} /*move hi around based on its original location*/
+.socialmedia{position: fixed; top: 1%; right: 2%;}/*move facebook and twitter icons based on x=0 y=0*/
+.container{position: relative;}/*need for img position to work, must have positioned parent*/
+img{position: absolute; bottom: 0px; right: 0px;}/*move img tag based on positioned parent*/
